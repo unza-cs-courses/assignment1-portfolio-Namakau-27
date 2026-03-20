@@ -7,81 +7,91 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<header class="hero">
+<header>
     <h1>Namakau Himululi</h1>
-    <p>Web Developer & Tech Enthusiast</p>
-    <a href="#projects" class="btn">View My Work</a>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 </header>
 
-<section id="about">
-    <h2>About Me</h2>
-    <img src="images/profile.jpg" alt="Profile picture of Namakau Himululi">
-    <p>
-        I am Namakau Himululi, a passionate web developer dedicated to creating intuitive and responsive websites. 
-        Over the past few years, I have honed my skills in HTML5, CSS3, and JavaScript, with a focus on building 
-        user-friendly interfaces that are both visually appealing and functional. My interest in web development 
-        stems from a desire to merge creativity with technology, allowing me to craft digital experiences that 
-        engage users and provide real value. I enjoy problem-solving, learning new frameworks, and keeping up 
-        with the latest trends in web technologies. Beyond coding, I am a proactive team player and an effective 
-        communicator, capable of translating technical ideas into clear, understandable concepts. I am committed 
-        to continuous improvement, and my goal is to contribute to projects that challenge me to grow as a developer 
-        while delivering meaningful, high-quality solutions for clients and users.
-    </p>
-    <ul class="skills">
-        <li>HTML5 & CSS3</li>
-        <li>JavaScript</li>
-        <li>Responsive Design</li>
-        <li>Flexbox & Grid</li>
-        <li>Version Control (Git)</li>
-    </ul>
-</section>
+<main>
+    <section id="home" class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Web Developer & Tech Enthusiast</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
 
-<section id="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-        <article class="project-card">
-            <img src="images/project1.jpg" alt="Screenshot of Project One">
-            <h3>Project One</h3>
-            <p>This project is a responsive website built using HTML, CSS, and JavaScript, showcasing my front-end skills.</p>
-            <a href="#">View Project</a>
-        </article>
-        <article class="project-card">
-            <img src="images/project2.jpg" alt="Screenshot of Project Two">
-            <h3>Project Two</h3>
-            <p>This project is an interactive web application that demonstrates DOM manipulation and event handling in JavaScript.</p>
-            <a href="#">View Project</a>
-        </article>
-        <article class="project-card">
-            <img src="images/project3.jpg" alt="Screenshot of Project Three">
-            <h3>Project Three</h3>
-            <p>This project is a portfolio redesign, using Flexbox and CSS Grid to create a fully responsive layout across devices.</p>
-            <a href="#">View Project</a>
-        </article>
-    </div>
-</section>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/profile.jpg" alt="Profile picture of Namakau Himululi">
+        <p>
+            I am Namakau Himululi, a passionate web developer dedicated to creating intuitive and responsive websites. 
+            Over the past few years, I have honed my skills in HTML5, CSS3, and JavaScript, with a focus on building 
+            user-friendly interfaces that are both visually appealing and functional. My interest in web development 
+            stems from a desire to merge creativity with technology, allowing me to craft digital experiences that 
+            engage users and provide real value. I enjoy problem-solving, learning new frameworks, and keeping up 
+            with the latest trends in web technologies. Beyond coding, I am a proactive team player and an effective 
+            communicator, capable of translating technical ideas into clear, understandable concepts. I am committed 
+            to continuous improvement, and my goal is to contribute to projects that challenge me to grow as a developer 
+            while delivering meaningful, high-quality solutions for clients and users.
+        </p>
+        <ul class="skills">
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Flexbox & Grid</li>
+            <li>Version Control (Git)</li>
+        </ul>
+    </section>
 
-<section id="contact">
-    <h2>Contact Me</h2>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <article class="project-card">
+                <img src="images/project1.jpg" alt="Screenshot of Project One">
+                <h3>Project One</h3>
+                <p>This project is a responsive website built using HTML, CSS, and JavaScript, showcasing my front-end skills.</p>
+                <a href="#">View Project</a>
+            </article>
+            <article class="project-card">
+                <img src="images/project2.jpg" alt="Screenshot of Project Two">
+                <h3>Project Two</h3>
+                <p>This project is an interactive web application that demonstrates DOM manipulation and event handling in JavaScript.</p>
+                <a href="#">View Project</a>
+            </article>
+            <article class="project-card">
+                <img src="images/project3.jpg" alt="Screenshot of Project Three">
+                <h3>Project Three</h3>
+                <p>This project is a portfolio redesign, using Flexbox and CSS Grid to create a fully responsive layout across devices.</p>
+                <a href="#">View Project</a>
+            </article>
+        </div>
+    </section>
 
-    <p>Email: <a href="mailto:aprilnamakau@gmail.com">aprilnamakau@gmail.com</a></p>
-    <p>Phone: 0755619571</p>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
 
-    <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" value="Namakau Himululi" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" value="aprilnamakau@gmail.com" required>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
 
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" name="phone" value="0775619571" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" required>Hi, I would like to get in touch regarding your portfolio or potential collaborations. Please contact me at your convenience.</textarea>
-
-        <button type="submit">Send</button>
-    </form>
-</section>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
 
 <footer>
     <p>&copy; 2026 Namakau Himululi. All rights reserved.</p>
