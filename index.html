@@ -1,127 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Namakau Himululi | Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namakau Himululi | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<header class="hero">
+    <h1>Namakau Himululi</h1>
+    <p>Web Developer & Tech Enthusiast</p>
+    <a href="#projects" class="btn">View My Work</a>
+</header>
 
-  <header>
-    <nav>
-      <h2 class="logo">Namakau</h2>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="home">
-    <div class="home-content">
-      <h1>Namakau Himululi</h1>
-      <p>Aspiring Software Developer | Web Development Enthusiast</p>
-      <a href="#projects" class="btn">View My Work</a>
-    </div>
-  </section>
-
-  <section id="about">
+<section id="about">
     <h2>About Me</h2>
-
-    <img src="images/profile.jpg" alt="Profile photo of Namakau Himululi">
-
+    <img src="images/profile.jpg" alt="Profile picture of Namakau Himululi">
     <p>
-      My name is <strong>Namakau Himululi</strong>, and I am an aspiring software developer 
-      with a strong passion for building modern and user-friendly web applications. I enjoy 
-      turning ideas into real digital solutions and continuously improving my technical skills.
+        I am Namakau Himululi, a passionate web developer dedicated to creating intuitive and responsive websites. 
+        Over the past few years, I have honed my skills in HTML5, CSS3, and JavaScript, with a focus on building 
+        user-friendly interfaces that are both visually appealing and functional. My interest in web development 
+        stems from a desire to merge creativity with technology, allowing me to craft digital experiences that 
+        engage users and provide real value. I enjoy problem-solving, learning new frameworks, and keeping up 
+        with the latest trends in web technologies. Beyond coding, I am a proactive team player and an effective 
+        communicator, capable of translating technical ideas into clear, understandable concepts. I am committed 
+        to continuous improvement, and my goal is to contribute to projects that challenge me to grow as a developer 
+        while delivering meaningful, high-quality solutions for clients and users.
     </p>
-
-    <p>
-      I have experience working with HTML, CSS, and JavaScript, and I am currently expanding 
-      my knowledge in responsive design and software development principles. I am particularly 
-      interested in creating solutions that solve real-world problems and improve user experience.
-    </p>
-
-    <p>
-      I am a motivated, detail-oriented, and curious learner who enjoys challenges and growth. 
-      My goal is to become a professional developer and contribute to impactful and innovative projects.
-    </p>
-
-    <h3>Skills</h3>
-    <ul>
-      <li>HTML5</li>
-      <li>CSS3</li>
-      <li>JavaScript</li>
-      <li>Responsive Web Design</li>
-      <li>Git & GitHub</li>
-      <li>Problem Solving</li>
+    <ul class="skills">
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Flexbox & Grid</li>
+        <li>Version Control (Git)</li>
     </ul>
-  </section>
+</section>
 
-  <section id="projects">
-    <h2>My Projects</h2>
-
+<section id="projects">
+    <h2>Projects</h2>
     <div class="project-grid">
-
-      <article class="project-card">
-        <img src="images/project1.png" alt="Portfolio Website">
-        <h3>Personal Portfolio Website</h3>
-        <p>
-          A responsive website built using HTML and CSS to showcase my skills, 
-          projects, and contact details in a clean and professional layout.
-        </p>
-        <a href="#">View Project</a>
-      </article>
-
-      <article class="project-card">
-        <img src="images/project2.png" alt="Landing Page Design">
-        <h3>Landing Page Design</h3>
-        <p>
-          A modern and responsive landing page design focused on user experience, 
-          layout structure, and visual appeal.
-        </p>
-        <a href="#">View Project</a>
-      </article>
-
-      <article class="project-card">
-        <img src="images/project3.png" alt="Upcoming Project">
-        <h3>Upcoming Project</h3>
-        <p>
-          I am currently working on more projects to expand my skills in JavaScript 
-          and frontend development. Stay tuned!
-        </p>
-        <a href="#">View Project</a>
-      </article>
-
+        <article class="project-card">
+            <img src="images/project1.jpg" alt="Screenshot of Project One">
+            <h3>Project One</h3>
+            <p>This project is a responsive website built using HTML, CSS, and JavaScript, showcasing my front-end skills.</p>
+            <a href="#">View Project</a>
+        </article>
+        <article class="project-card">
+            <img src="images/project2.jpg" alt="Screenshot of Project Two">
+            <h3>Project Two</h3>
+            <p>This project is an interactive web application that demonstrates DOM manipulation and event handling in JavaScript.</p>
+            <a href="#">View Project</a>
+        </article>
+        <article class="project-card">
+            <img src="images/project3.jpg" alt="Screenshot of Project Three">
+            <h3>Project Three</h3>
+            <p>This project is a portfolio redesign, using Flexbox and CSS Grid to create a fully responsive layout across devices.</p>
+            <a href="#">View Project</a>
+        </article>
     </div>
-  </section>
+</section>
 
-  <section id="contact">
+<section id="contact">
     <h2>Contact Me</h2>
 
     <p>Email: <a href="mailto:aprilnamakau@gmail.com">aprilnamakau@gmail.com</a></p>
     <p>Phone: 0755619571</p>
 
     <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" value="Namakau Himululi" required>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" value="aprilnamakau@gmail.com" required>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" value="0775619571" required>
 
-      <button type="submit">Send Message</button>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required>Hi, I would like to get in touch regarding your portfolio or potential collaborations. Please contact me at your convenience.</textarea>
+
+        <button type="submit">Send</button>
     </form>
-  </section>
+</section>
 
-  <footer>
+<footer>
     <p>&copy; 2026 Namakau Himululi. All rights reserved.</p>
-  </footer>
-
+</footer>
 </body>
 </html>
