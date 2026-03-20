@@ -29,15 +29,13 @@ Credits
 - Project images: royalty-free from Unsplash/Pexels
 - Fonts: Google Fonts
 
- Academic Integrity
-All code is my own work.  
-No CSS frameworks or libraries were used.  
-Images are royalty-free or my own, with proper attribution.  
-Plagiarism detection tools may be applied.  
+Academic Integrity
+-All code is my own work.  
+-No CSS frameworks or libraries were used.  
+-Images are royalty-free or my own, with proper attribution.  
+-Plagiarism detection tools may be applied.  
 
----
-
-## Extension Opportunities (Bonus Features)
+Extension Opportunities (Bonus Features)
 - Dark/light mode toggle using CSS custom properties.  
 - CSS transitions for hover effects on project cards.  
 - CSS-only hamburger menu for mobile navigation.  
